@@ -101,26 +101,28 @@
             <section class="exaple">
                 <h2 class="code__title">Code examples</h2>
                 <div>
-                    <pre>
-                        const addTodo = createAsyncThunk('contacts/add', async contacts => {
-                        try {
-                        const { data } = await axios.post('/contacts', contacts);
-                        return data;
-                        } catch (error) {}
-                        });
-                        
-                        
-                        
-                        const deleteTodo = createAsyncThunk(
-                        'contact/delete',
-                        async todoId => {
-                        try {
-                        const { data } = axios.delete(`/contacts/${todoId}`);
-                        return data;
-                        } catch (error) {}
-                        }
-                        )
-                    </pre>
+                    <code>
+                        <pre>
+                            const addTodo = createAsyncThunk('contacts/add', async contacts => {
+                            try {
+                            const { data } = await axios.post('/contacts', contacts);
+                            return data;
+                            } catch (error) {}
+                            });
+                            
+                            
+                            
+                            const deleteTodo = createAsyncThunk(
+                            'contact/delete',
+                            async todoId => {
+                            try {
+                            const { data } = axios.delete(`/contacts/${todoId}`);
+                            return data;
+                            } catch (error) {}
+                            }
+                            )
+                        </pre>
+                    </code>
                 </div>
             </section>
             <section class="example">
@@ -169,10 +171,10 @@
             </section>
         </div>
     </main>
-    <footer>
-        <a href="">GitHub</a>
+    <footer class="footer">
+        <a class="link" href="https://github.com/Alfat1989">GitHub</a>
         <p>2022</p>
-        <a href="https://rs.school/">
+        <a class="link" href="https://rs.school/">
             <img src="" alt="">
         </a>
     </footer>
