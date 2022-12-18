@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+
+    color: #000000;
+
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+main{
+    display: flex;
+    margin: 0px auto;
+    width: 1200px;
+
+    background-color: #e8e7e1;
+    border-bottom: 1px solid #ffffff;
+}
+
+.title {
+    margin-top: 20px;
+
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    border-bottom: 2px solid #f2f208;
+}
+
+.education__title{
+    text-transform: uppercase;
+}
+
+.education__description{
+    padding-left: 30px;
+    color: #747472;
+    font-size: 16px;
+}
+
+.education__year{
+    padding-left: 30px;
+    color: #747472;
+    font-size: 14px;
+}
+
+.user__name{
+    padding-bottom: 20px;
+    background-color: #f2f208;
+}
+
+.name {
+    margin-top: 20px;
+    padding-top: 20px;
+
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    
+    text-transform: uppercase;
+}
+
+.name span{
+    font-weight: 400;
+}
+
+
+
+.left__side{
+    background-color: #222126;
+    color: #ffffff;
+    width: 100%;
+}
+
+
+.left__side_img{
+    width: 100%;
+}
+
+.contacts__title, .education__title{
+    position: relative;
+
+    margin-top: 10px;
+    padding-left: 30px;
+
+    background-color: #292B2F;
+}
+
+.contacts__title::before, .education__title::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 20px;
+    background-color: #f2f208;
+}
+
+.contacts__description{
+    margin-left: 30px;
+}
+
+.skills__list{
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.skills__list ul{
+    margin-left: 20px;
+
+    list-style: circle;
+    color: #747472;
+}
+
+.example__list{
+    margin-top: 10px;
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+
+.example__item{
+    margin: 0 15px;
+    width: calc((100% - 30px) / 2);
+    
+}
+
+
+.example__image{
+    width: 400px;
+    height: 240px;
+}
+
+.example__link{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.courses__title span{
+    color: #747472;
+}
+
+.courses__date{
+    color: #747472;
+    font-size: 12px;
+}
+
+.courses__list ul{
+    margin-left: 20px;
+    list-style: disc;
+}
+
+.footer{
+    margin: 0px auto;
+    padding: 20px;
+
+    width: 1200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #222126;
+    color: #ffffff;
+}
+
+.footer .git-link{
+    color: #ffffff;
+    position: relative;
+    padding-left: 40px;
+    
+
+}
+
+.footer .git-link::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    background-image: url(/images/github-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer img {
+    width: 60px;
+}
+
