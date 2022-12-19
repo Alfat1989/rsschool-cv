@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RSschool</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <main>
+        <div class="left__side">
+            <aside>
+                <section class="education">
+                    <img class="left__side_img" src="./images/me.jpg" alt="my photo" />
+                    <div class="container">
+                        <h2 class="title">EDUCATION</h2>
+                        <p class="education__title">computer's operator</p>
+                        <p class="education__description">Tashkent Aircraft Building Professional College</p>
+                        <p class="education__year">2005-2008</p>
+                    </div>
+                </section>
+                <section class="contacts">
+                    <div class="container">
+                        <h2 class="title">Contacts</h2>
+                        <ul class="contacts__list">
+                            <li class="contacts__item">
+                                <p class="contacts__title">Phone</p>
+                                <p class="contacts__description">
+                                    <a href="tel:+79309592271">+7 (930) 959 22 71</a>
+                                </p>
+                                <p class="contacts__description">
+                                    <a href="tel:+998992005718">+99 (899) 200 57 18</a>
+                                </p>
+                            </li>
+                            <li>
+                                <p class="contacts__title">Email</p>
+                                <p class="contacts__description"><a
+                                        href="mailto:gilmalf89@gmail.com">gilmalf89@gmail.com</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </aside>
+        </div>
+
+        <div class="right__side">
+            <section class="user__name">
+                <div class="container">
+                    <h1 class="name">Gilmanshin <span>Alfat</span></h1>
+                    <p>junior front-end devrlopet</p>
+                </div>
+            </section>
+            <section class="about">
+                <div class="container">
+                    <h2 class="about__title title">About me</h2>
+                    <p class="about__description">
+                        Hello, my name is Alfat. I am junior web-developer. I have been
+                        studying web programming since September 2021. During this time, I
+                        studied layout, javaScript. Now at the stage of studying React.js.
+                        In the future, I plan to become a full-stack developer. My English
+                        is not very good, so I'm learning it little by little too.
+                    </p>
+                </div>
+            </section>
+            <section class="skills">
+                <div class="container">
+                    <h2 class="skills__title title">Tech Skills</h2>
+                    <ul class="skills__list">
+                        <li class="skills__item">
+                            <p>HTML</p>
+                        </li>
+                        <li class="skills__item">
+                            <p>CSS</p>
+                            <ul>
+                                <li>SASS</li>
+                                <li>BEM</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p>JavaScript</p>
+                        </li>
+                        <li>
+                            <p>Webpack</p>
+                        </li>
+                        <li>
+                            <p>React.js</p>
+                            <ul>
+                                <li>
+                                    <p>Routes</p>
+                                </li>
+                                <li>
+                                    <p>REST API</p>
+                                </li>
+                                <li>
+                                    <p>Hooks</p>
+                                </li>
+                                <li>
+                                    <p>Redux</p>
+                                </li>
+                                <li>
+                                    <p>GitHub/Git</p>
+                                </li>
+                                <li>
+                                    <p>Figma</p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="exaple">
+                <div class="container">
+                    <h2 class="code__title title">Code examples</h2>
+                    <div>
+                        <code>
+                const addTodo = createAsyncThunk('contacts/add', async contacts
+                => { try { const { data } = await axios.post('/contacts',
+                contacts); return data; } catch (error) {} }); const deleteTodo
+                = createAsyncThunk( 'contact/delete', async todoId => { try {
+                const { data } = axios.delete(`/contacts/${todoId}`); return
+                data; } catch (error) {} } )
+              </code>
+                    </div>
+                </div>
+            </section>
+            <section class="example">
+                <div class="container">
+                    <h2 class="example__title title">Work experience</h2>
+                    <ul class="example__list">
+                        <li class="example__item">
+                            <img class="example__image" src="./images/education-project.png"
+                                alt="educational project" />
+                            <a class="example__link" href="alfat1989.github.io/goit-markup-hw-08/">educational
+                                project</a>
+                            <p class="example__descr">
+                                Educational project carried out with the help of NTML, heart
+                                rate. Preprocessors SASS, BEM, adaptive layout were involved.
+                            </p>
+                        </li>
+                        <li class="example__item">
+                            <img class="example__image" src="./images/movies-library.png" alt="movie library" />
+                            <a class="example__link" href="https://alfat1989.github.io/goit-react-hw-05-movies/">movie
+                                library</a>
+                            <p class="example__descr">
+                                The project was made on the React.js framework. Methods such
+                                as: Rutes, REST API, Hooks were involved.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="courses">
+                <div class="container">
+                    <h2 class="title">Training courses</h2>
+                    <ul class="courses__list">
+                        <li class="courses__item">
+                            <h3 class="courses__title">Top Expert <span>Internet Marketing</span></h3>
+                            <p class="courses__date">January 2021 - March 2021</p>
+                            <ul>
+                                <li>SEO</li>
+                                <li>Contextual advertising</li>
+                                <li>Target</li>
+                            </ul>
+                        </li>
+                        <li class="courses__item">
+                            <h3 class="courses__title">GoIt Academy <span>Front-end developer</span></h3>
+                            <p class="courses__date">September 2021 - February 2022</p>
+                            <ul>
+                                <li>HTML, CSS</li>
+                                <li>JavaScript</li>
+                                <li>React.js</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <a class="git-link" href="https://github.com/Alfat1989">GitHub</a>
+        <p>2022</p>
+        <a class="link" href="https://rs.school/">
+            <img src="./images/logo-rsschool.png" alt="logo" />
+        </a>
+    </footer>
+</body>
+
+</html>
