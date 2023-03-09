@@ -61,11 +61,11 @@ const deleteTodo = createAsyncThunk(
 
 ======================
 
-### Contacts
+### Contacts:
 
-__Phone__: +7(930)959-22-71, +99(899)200-57-18
-__E-mail__: [gilmalf89@gmail.com]
-__Telegram__: @AlfatGilm
+- __Phone__: +7(930)959-22-71, +99(899)200-57-18
+- __E-mail__: [gilmalf89@gmail.com]
+- __Telegram__: @AlfatGilm
 
 ========================
 
