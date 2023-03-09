@@ -1,10 +1,10 @@
 # __Alfat Gilmanshin__
 
-===================
+===
 
 ## *Junior Frontend Developer*
 
-===================
+===
 
 ### About Myself:
 
@@ -17,7 +17,7 @@ I also improve my knowledge in the framework React.js
 
 I hope to improve my knowledge and work on big projects in the future
 
-=======================
+===
 
 ### My Skills
 
@@ -32,7 +32,7 @@ I hope to improve my knowledge and work on big projects in the future
     + Redux
 * Git, Github
 
-=======================
+===
 
 ### Code example:
 
@@ -59,7 +59,7 @@ const deleteTodo = createAsyncThunk(
 
 ```
 
-======================
+===
 
 ### Contacts:
 
@@ -67,7 +67,7 @@ const deleteTodo = createAsyncThunk(
 - __E-mail__: [gilmalf89@gmail.com]
 - __Telegram__: @AlfatGilm
 
-========================
+===
 
 ### Languages:
 
@@ -76,7 +76,7 @@ const deleteTodo = createAsyncThunk(
 * English - Intermediate
 * Uzbek - Intermediate
 
-========================
+===
 
 
 
