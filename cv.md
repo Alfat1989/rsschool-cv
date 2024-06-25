@@ -34,13 +34,14 @@ I am a frontend developer with experience in creating dynamic and user-friendly 
 ---
 
 **Find max**
-'''
+
+```
 const findMax = (arr) => {
     if (arr.length === 0) return null; // Return null if the array is empty
     return arr.reduce((max, num) => (num > max ? num : max), arr[0]);
 };
 
-'''
+```
 
 ### Experience
 ---
