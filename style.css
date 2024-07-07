@@ -231,6 +231,11 @@ a {
     color: #ffffff;
 }
 
+.rs-logo {
+    width: 150px;
+    height: auto;
+}
+
 .social-list {
     display: flex;
     align-items: center;
